@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Trigalume Padaria & Confeitaria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🥖 Trigalume Padaria & Confeitaria</h1>
+
+    <h2>Cadastrar Produto</h2>
+
+    <form id="formProduto">
+        <input type="hidden" id="produtoId">
+
+        <input type="text" id="nome" placeholder="Nome do Produto" required>
+        <input type="text" id="descricao" placeholder="Descrição">
+        <input type="number" id="preco" placeholder="Preço" step="0.01" required>
+        <input type="text" id="categoria" placeholder="Categoria">
+        <input type="number" id="quantidade" placeholder="Quantidade" required>
+
+        <button type="submit">Salvar</button>
+    </form>
+
+    <h2>Lista de Produtos</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Preço</th>
+                <th>Categoria</th>
+                <th>Quantidade</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="listaProdutos"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
