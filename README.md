@@ -1,6 +1,6 @@
 # CRUD - Trigalume Padaria & Confeitaria
 
-Projeto desenvolvido para a disciplina de Desenvolvimento Web.
+Projeto desenvolvido para a disciplina de Teste de Sistemas.
 
 ## Integrantes:
 - Lucas
