@@ -3,18 +3,18 @@
 Projeto desenvolvido para a disciplina de Teste de Sistemas.
 
 ## Integrantes:
-- Lucas;
-- Luiz;
-- Maria;
-- Camili;
+- Lucas
+- Luiz
+- Maria
+- Camili
 
 ## Tecnologias:
-- Node.js;
-- Express;
-- PostgreSQL;
-- HTML;
-- CSS;
-- JavaScript;
+- Node.js
+- Express
+- PostgreSQL
+- HTML
+- CSS
+- JavaScript
 
 ## Como executar:
 
